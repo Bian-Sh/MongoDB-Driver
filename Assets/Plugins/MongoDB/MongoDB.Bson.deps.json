@@ -1,0 +1,141 @@
+{
+  "runtimeTarget": {
+    "name": ".NETStandard,Version=v2.1/",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETStandard,Version=v2.1": {},
+    ".NETStandard,Version=v2.1/": {
+      "MongoDB.Bson/0.0.0-local": {
+        "dependencies": {
+          "Microsoft.CodeAnalysis.FxCopAnalyzers": "2.6.2",
+          "Microsoft.NETFramework.ReferenceAssemblies": "1.0.0",
+          "Microsoft.SourceLink.GitHub": "1.1.1",
+          "System.Runtime.CompilerServices.Unsafe": "5.0.0"
+        },
+        "runtime": {
+          "MongoDB.Bson.dll": {}
+        }
+      },
+      "Microsoft.Build.Tasks.Git/1.1.1": {},
+      "Microsoft.CodeAnalysis.FxCopAnalyzers/2.6.2": {
+        "dependencies": {
+          "Microsoft.CodeQuality.Analyzers": "2.6.2",
+          "Microsoft.NetCore.Analyzers": "2.6.2",
+          "Microsoft.NetFramework.Analyzers": "2.6.2",
+          "Text.Analyzers": "2.6.2"
+        }
+      },
+      "Microsoft.CodeQuality.Analyzers/2.6.2": {},
+      "Microsoft.NetCore.Analyzers/2.6.2": {},
+      "Microsoft.NetFramework.Analyzers/2.6.2": {},
+      "Microsoft.NETFramework.ReferenceAssemblies/1.0.0": {
+        "dependencies": {
+          "Microsoft.NETFramework.ReferenceAssemblies.net461": "1.0.0"
+        }
+      },
+      "Microsoft.NETFramework.ReferenceAssemblies.net461/1.0.0": {},
+      "Microsoft.SourceLink.Common/1.1.1": {},
+      "Microsoft.SourceLink.GitHub/1.1.1": {
+        "dependencies": {
+          "Microsoft.Build.Tasks.Git": "1.1.1",
+          "Microsoft.SourceLink.Common": "1.1.1"
+        }
+      },
+      "System.Runtime.CompilerServices.Unsafe/5.0.0": {
+        "runtime": {
+          "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.51904"
+          }
+        }
+      },
+      "Text.Analyzers/2.6.2": {}
+    }
+  },
+  "libraries": {
+    "MongoDB.Bson/0.0.0-local": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Build.Tasks.Git/1.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-AT3HlgTjsqHnWpBHSNeR0KxbLZD7bztlZVj7I8vgeYG9SYqbeFGh0TM/KVtC6fg53nrWHl3VfZFvb5BiQFcY6Q==",
+      "path": "microsoft.build.tasks.git/1.1.1",
+      "hashPath": "microsoft.build.tasks.git.1.1.1.nupkg.sha512"
+    },
+    "Microsoft.CodeAnalysis.FxCopAnalyzers/2.6.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-fub9nWKI08wCmC9hnARCCYDLEd+aAs/aqhAQ27BmaP2fq3Jh8WSgNFLNInic+9lXQmibU6r7SSKbMroh3aM3ig==",
+      "path": "microsoft.codeanalysis.fxcopanalyzers/2.6.2",
+      "hashPath": "microsoft.codeanalysis.fxcopanalyzers.2.6.2.nupkg.sha512"
+    },
+    "Microsoft.CodeQuality.Analyzers/2.6.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-HEH7nPissPcvMhx0MOXXaARkmzkEP7hDFBz3o06ZDj3rpE+F0e5hVoGJDr+qPsbJaeDoAlbArzTYfGsbZPSlPA==",
+      "path": "microsoft.codequality.analyzers/2.6.2",
+      "hashPath": "microsoft.codequality.analyzers.2.6.2.nupkg.sha512"
+    },
+    "Microsoft.NetCore.Analyzers/2.6.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-HUfJMvzy4xJ6b4X99NGer2Pxn5On/WU/JscTzxKODg9srhJdtlWNhdorbejl2igrBi7RX6ufBhfvp8aBAEMy1A==",
+      "path": "microsoft.netcore.analyzers/2.6.2",
+      "hashPath": "microsoft.netcore.analyzers.2.6.2.nupkg.sha512"
+    },
+    "Microsoft.NetFramework.Analyzers/2.6.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-HdNe8zptYp3bl7VDPTXDzeKMqkQva8m9mUI0C1HFN2iiMsMGnV3gqOeDQenH6NCTgSwYRnokHFsvcOeEODMd0g==",
+      "path": "microsoft.netframework.analyzers/2.6.2",
+      "hashPath": "microsoft.netframework.analyzers.2.6.2.nupkg.sha512"
+    },
+    "Microsoft.NETFramework.ReferenceAssemblies/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-7D2TMufjGiowmt0E941kVoTIS+GTNzaPopuzM1/1LSaJAdJdBrVP0SkZW7AgDd0a2U1DjsIeaKG1wxGVBNLDMw==",
+      "path": "microsoft.netframework.referenceassemblies/1.0.0",
+      "hashPath": "microsoft.netframework.referenceassemblies.1.0.0.nupkg.sha512"
+    },
+    "Microsoft.NETFramework.ReferenceAssemblies.net461/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-t4HKFwTQk/TkCCe1Sr2veze2QU6/RkRHkSQrZMHo2oFAoPANBg1l93O2Gh+ogqKRLFCRBbInm9hvEeSKVsuepw==",
+      "path": "microsoft.netframework.referenceassemblies.net461/1.0.0",
+      "hashPath": "microsoft.netframework.referenceassemblies.net461.1.0.0.nupkg.sha512"
+    },
+    "Microsoft.SourceLink.Common/1.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-WMcGpWKrmJmzrNeuaEb23bEMnbtR/vLmvZtkAP5qWu7vQsY59GqfRJd65sFpBszbd2k/bQ8cs8eWawQKAabkVg==",
+      "path": "microsoft.sourcelink.common/1.1.1",
+      "hashPath": "microsoft.sourcelink.common.1.1.1.nupkg.sha512"
+    },
+    "Microsoft.SourceLink.GitHub/1.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-IaJGnOv/M7UQjRJks7B6p7pbPnOwisYGOIzqCz5ilGFTApZ3ktOR+6zJ12ZRPInulBmdAf1SrGdDG2MU8g6XTw==",
+      "path": "microsoft.sourcelink.github/1.1.1",
+      "hashPath": "microsoft.sourcelink.github.1.1.1.nupkg.sha512"
+    },
+    "System.Runtime.CompilerServices.Unsafe/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ZD9TMpsmYJLrxbbmdvhwt9YEgG5WntEnZ/d1eH8JBX9LBp+Ju8BSBhUGbZMNVHHomWo2KVImJhTDl2hIgw/6MA==",
+      "path": "system.runtime.compilerservices.unsafe/5.0.0",
+      "hashPath": "system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512"
+    },
+    "Text.Analyzers/2.6.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-UcSpZtr7TXPWj59F9WGZd7Edcm+ppBW4OeA/VuqX0RUJ6t/qgCqPfbRAJ/WbT5hcMHaI2pOn7kMbG5gOayravQ==",
+      "path": "text.analyzers/2.6.2",
+      "hashPath": "text.analyzers.2.6.2.nupkg.sha512"
+    }
+  }
+}
